@@ -34,8 +34,8 @@ Install dependencies with
 pip install -r requirements.txt.
 ```
 Make sure you add your API keys to the .env file:
-GOOGLE_API_KEY
-SERPER_API_KEY
+- GOOGLE_API_KEY
+- SERPER_API_KEY
 
 - Run the application with:
 ``` bash
@@ -43,11 +43,11 @@ streamlit run app.py
 ```
 
 # 📢 Usage
-Enter trading parameters (stock symbol, capital, risk tolerance, etc.) through the form.
+Enter trading parameters (stock ticker symbol, capital, risk tolerance, etc.) through the form.
 Submit to generate an AI-driven analysis report tailored to your selections.
 View the output, including trading strategy suggestions, market trends, and risk assessment.
 
 # 💡 Future Enhancements
-Support for more AI agents and trading strategies.
+Support for more AI agents and trading strategies and faster analysis.
 Enhanced visualizations for market trends and risk analysis.
 Integration of more data sources for deeper market insights.
